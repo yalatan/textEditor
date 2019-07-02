@@ -1,0 +1,121 @@
+.container{
+    margin-top: 2vh; 
+    display:flex;  
+}
+.title{
+    display:flex;  
+}
+.title span, .your_notes, .name_tags, .list_notes{ 
+    color: #5cb85c;
+    font-style: italic;
+    font-weight: bold;
+}
+.title_lists{
+   
+}
+#title{
+    overflow: hidden; 
+    height: 25px;
+}
+input::placeholder, #title::placeholder{
+    padding-left: 10px;
+    color: #5cb85c;
+    font-style: italic;
+}
+.title_wrapper{
+    min-width: 50px;
+    width: auto;
+    margin: 5px;
+    padding: 5px;
+    border: 1px solid grey;
+    -moz-box-shadow:    inset 0 0 2px #000000;
+    -webkit-box-shadow: inset 0 0 2px #000000;
+    box-shadow:         inset 0 0 2px #000000;
+    flex-basis: 150px;
+    position: relative;
+}
+.title_lists_titles{
+    cursor: pointer;
+}
+.title_wrapper span{
+    margin-right: 5px;      
+}
+.title_wrapper p{
+    padding-right: 15px;      
+}
+.box_title_list span{
+    color: #5cb85c;
+    font-style: italic;
+}
+.your_notes{
+    flex-grow: 1;
+font-size: 22px;
+}
+#title{
+    min-width: 50px;
+    width: 100%; 
+    overflow: hidden; 
+    height: 25px;
+    border-radius: 4px;
+}
+.delete{
+    cursor: pointer;
+    color: red;
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+.form{
+    margin-top: 15px;
+    margin-left: 45px;
+}
+
+iframe{
+    display: none;
+}
+#tags{
+border: none;
+outline:none;
+resize:none;
+overflow:auto;
+}
+.lightTag{
+    font-weight: bold;
+    color: orange !important;
+
+}
+.button{
+    color: #fff;
+    background-color: #5cb85c;
+    border-color: #4cae4c;
+    display: inline-block;
+    margin-bottom: 0;
+    font-weight: 400;
+    text-align: center;
+    vertical-align: middle;
+    cursor: pointer;
+    background-image: none;
+    border: 1px solid transparent;
+    white-space: nowrap;
+    padding: 6px 12px;
+    font-size: 14px;
+    line-height: 1.428571429;
+    border-radius: 4px;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    -o-user-select: none;
+    user-select: none;
+}
+#finderTag{
+    min-width: 50px;
+    width: 100%;
+    height: auto; 
+    border-radius: 4px;
+    border-color: #4cae4c;
+}
+#paraphp{
+    border: 3px solid red;
+    height: 30px;
+    width: 400px;
+}
